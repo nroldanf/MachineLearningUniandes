@@ -1,0 +1,8 @@
+name: ml-uniandes
+channels:
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip=23.1.2
+  - pip:
+    - -r requirements.txt
